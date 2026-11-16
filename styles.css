@@ -1,0 +1,25 @@
+body{
+    margin:0;
+}
+.sidebar{
+    background-color: black;
+    width: 250px;
+    height: 100vh;
+    padding:50px;
+    box-sizing:border-box;
+}
+h2{
+    color:white;
+}
+.nav-links{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.nav-links a{
+    color:lightgray;
+    text-decoration:none;
+}
+.nav-links a:hover{
+    color:white;
+}
